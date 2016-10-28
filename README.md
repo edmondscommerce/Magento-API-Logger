@@ -15,7 +15,7 @@ You simply need to add your custom logging code to whichever API controller you'
 ```
 app/code/community/EdmondsCommerce/LogApi/controllers/*
 ```
-```
+```php
 public function indexAction()
 {
     // Your custom logging code here
