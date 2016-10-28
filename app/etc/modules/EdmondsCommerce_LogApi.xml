@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <EdmondsCommerce_LogApi>
+            <active>true</active>
+            <codePool>community</codePool>
+        </EdmondsCommerce_LogApi>
+    </modules>
+</config>
