@@ -9,8 +9,8 @@ Copy app/ into the root Magento folder.
 
 ### Usage ###
 
-You simply need to add your custom logging code to whichever API controller you're interested in
-(I've added some basic logging to get you started).
+Simply add your custom logging code to whichever API controller you're
+interested in (we've added some basic logging to get you started).
 
 
 ```
