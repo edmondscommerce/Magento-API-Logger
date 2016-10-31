@@ -8,7 +8,7 @@ class EdmondsCommerce_LogApi_SoapController
     public function indexAction()
     {
         $logger = Mage::helper('edmondscommerce_logapi/log');
-        $logger->log(Mage::app()->getRawBody(), $logger::API_SOAP);
+        $logger->log($this->getRequest()->getRawBody(), $logger::API_SOAP);
         parent::indexAction();
     }
 }
