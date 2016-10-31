@@ -21,7 +21,7 @@ public function indexAction()
 {
     // Your custom logging code here
     $logger = Mage::helper('edmondscommerce_logapi/log');
-    $logger->log(Mage::app()->getRawBody(), $logger::API_V2_SOAP);
+    $logger->log($this->getRequest()->getRawBody(), $logger::API_V2_SOAP);
     // End
     parent::indexAction();
 }
